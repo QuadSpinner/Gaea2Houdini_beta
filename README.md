@@ -18,3 +18,10 @@ So far there are no known issues.
 ## Notes
 - We have provided a basic example file in this repo. You can find it in the `hip/` folder.
 - The HDAs provided in this toolset are blackboxed. This means you cannot modify or inspect them yourself. If you are having issues please contact Quadspinner support.
+- This repository is a temporary place for beta testing. Actual contents will be moved to the official repository soon.
+
+## LEGAL DISCLAIMER
+
+The contents of this repository are provided as-is without any warranties, express or implied. Contents are copyright (C) 2024 QuadSpinner. All rights reserved.
+
+Usage of Gaea through this plugin is governed by the [Gaea 2.0 End-User License Agreement](https://quadspinner.com/legal/#heading4)
