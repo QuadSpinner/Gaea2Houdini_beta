@@ -1,0 +1,8 @@
+{
+    "hpath": "$GAEA2HOUDINI",
+    "env": [
+        {
+            "GAEA2HOUDINI" :  "C:/Github/Gaea2Houdini/"
+        }
+    ]
+}
