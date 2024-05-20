@@ -1,6 +1,7 @@
-![gaea2houdinibanner](https://github.com/Bismuth-Consultancy-BV/Gaea2Houdini/blob/main/help/images/banner.png)
+![banner](https://github.com/QuadSpinner/Gaea2Houdini_beta/blob/main/help/images/banner.png)
 
-# Gaea2Houdini
+
+# Gaea2Houdini Beta
 The Gaea 2.0 plugin for Houdini 20.0 and newer, developed by QuadSpinner.
 
 ## Installing for Houdini
