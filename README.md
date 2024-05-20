@@ -9,7 +9,11 @@ To install the plugin for the first time, follow the below steps. Please note th
 1. Clone this repository and make note of the directory you have cloned it to.
 2. Copy the `Gaea2Houdini.json` file found in the repository root, and paste it in the $HOUDINI_USER_PREF_DIR/packages/ folder.
 3. Edit the `Gaea2Houdini.json` file you just pasted, and modify the `$GAEA2HOUDINI` path found inside. Set the path to where you cloned the repository to in step one.
-4. Boot Houdini and enjoy!
+4. Open Gaea 2.0 and activate the software with your license if you have not yet done so.
+5. Boot Houdini and enjoy!
+
+## Using the Plugin
+After installing the Gaea2Houdini plugin, open Houdini and create any `Gaea` node in your SOP network. It will automatically connect with Gaea 2.0 and process your input HeightField in Houdini. You can use these nodes the same way like any other SOP in Houdini. Most common use-cases have been tested already, while complex setups may not have been yet. Please let us know if things don't work as expected!
 
 ## Troubleshooting
 So far there are no known issues.
