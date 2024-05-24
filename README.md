@@ -3,6 +3,7 @@
 
 # Gaea2Houdini Beta
 The Gaea 2.0 plugin for Houdini 20.0 and newer, developed by QuadSpinner.
+By using this plugin you are able to use many of the nodes found inside Gaea directly inside Houdini. By using this plugin you are able to work interactively inside of Houdini, while using Gaea technology to create the desired end result.
 
 ## Installing for Houdini
 To install the plugin for the first time, follow the below steps. Please note that the distribution of this toolset will change.
@@ -22,6 +23,8 @@ So far there are no known issues.
 ## Notes
 - We have provided a basic example file in this repo. You can find it in the `hip/` folder.
 - The HDAs provided in this toolset are blackboxed. This means you cannot modify or inspect them yourself. If you are having issues please contact Quadspinner support.
+- The Gaea nodes will look for an instance of the Gaea.Service.exe process running in the background, and if found connect to it for processing. If none is found, it will spin up a new instance.
+-  Under `Advanced Cook Settings` in each Gaea node you are able to set the port used for the TCP communication between Houdini and Gaea. You are also able to configure the plugin to shut down the `Gaea.Service.exe` process down after each cook; Please note that this will incur significantly slower cooking times.
 - This repository is a temporary place for beta testing. Actual contents will be moved to the official repository soon.
 
 ## LEGAL DISCLAIMER
